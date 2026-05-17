@@ -4,7 +4,7 @@
 <p><strong class="example">Example 1:</strong></p>
 
 <div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [3,0,1]</span></p>
+<p><strong>Input:</strong> <span class="example-io">arr = [7, 2, 5, 3, 5, 3]</span></p>
 
 <p><strong>Output:</strong> <span class="example-io">2</span></p>
 
