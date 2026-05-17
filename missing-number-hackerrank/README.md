@@ -4,13 +4,13 @@
 <p><strong class="example">Example 1:</strong></p>
 
 <div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">arr = [7, 2, 5, 3, 5, 3]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">2</span></p>
+<p><strong>Input1:</strong> <span class="example-io">arr = [7, 2, 5, 3, 5, 3]</span></p>
+<p><strong>Input2:</strong> <span class="example-io">arr = [7, 2, 5, 4, 6, 3, 5, 3]</span></p>
+<p><strong>Output:</strong> <span class="example-io">[4, 6]</span></p>
 
 <p><strong>Explanation:</strong></p>
 
-<p><code>n = 3</code> since there are 3 numbers, so all numbers are in the range <code>[0,3]</code>. 2 is the missing number in the range since it does not appear in <code>nums</code>.</p>
+<p>The <code>brr</code> array is the orginal list. The numbers missing are .<code>[4, 6]</code>.</p>
 </div>
 
 <div class="simple-translate-system-theme" id="simple-translate">
