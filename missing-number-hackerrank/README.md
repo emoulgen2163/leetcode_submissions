@@ -5,41 +5,61 @@
 
 <div class="example-block">
 <p><strong>Input1:</strong> <span class="example-io">arr = [7, 2, 5, 3, 5, 3]</span></p>
-<p><strong>Input2:</strong> <span class="example-io">arr = [7, 2, 5, 4, 6, 3, 5, 3]</span></p>
+<p><strong>Input2:</strong> <span class="example-io">brr = [7, 2, 5, 4, 6, 3, 5, 3]</span></p>
 <p><strong>Output:</strong> <span class="example-io">[4, 6]</span></p>
 
-<p><strong>Explanation:</strong></p>
+<p>&nbsp;</p>
 
-<p>The <code>brr</code> array is the orginal list. The numbers missing are .<code>[4, 6]</code>.</p>
+<p><strong>Explanation</strong></p>
+
+<p>The <code>brr</code> array is the orginal list. The numbers missing are <code>[4, 6]</code>.</p>
 </div>
 
-<div class="simple-translate-system-theme" id="simple-translate">
-<div>
-<div class="simple-translate-button isShow" style="background-image: url(&quot;moz-extension://8a9ffb6b-7e69-4e93-aae1-436a1448eff6/icons/512.png&quot;); height: 22px; width: 22px; top: 318px; left: 36px;">&nbsp;</div>
+<p>&nbsp;</p>
 
-<div class="simple-translate-panel " style="width: 300px; height: 200px; top: 0px; left: 0px; font-size: 13px;">
-<div class="simple-translate-result-wrapper" style="overflow: hidden;">
-<div class="simple-translate-move" draggable="true">&nbsp;</div>
+<p><strong>Notes</strong></p>
 
-<div class="simple-translate-result-contents">
-<p class="simple-translate-result" dir="auto">&nbsp;</p>
+<ul>
+	<li>If a number occurs multiple times in the lists, you must ensure that the frequency of that number in both lists is the same. If that is not the case, then it is also a missing number.</li>
+	<li>Return the missing numbers sorted ascending.</li>
+	<li>Only include a missing number once, even if it is missing multiple times.</li>
+	<li>The difference between the maximum and minimum numbers in the original list is less than or equal to 100.</li>
+</ul>
 
-<p class="simple-translate-candidate" dir="auto">&nbsp;</p>
-</div>
-</div>
-</div>
-</div>
+<p>&nbsp;</p>
+
+<p><strong>Function Description</strong></p>
+<p>Complete the missingNumbers function in the editor below. It should return a sorted array of missing numbers.</p>
+<p>missingNumbers has the following parameter(s):</p>
+<ul>
+	<li>int arr[n]: the array with missing numbers</li>
+	<li>int brr[m]: the original array of numbers</li>
+</ul>
+
+<p><strong>Returns</strong></p>
+<ul>
+	<li>int[]: an array of integers</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>Input Formats</strong></p>
+
+<p>There will be four lines of input:</p>
+
+<p><code>n</code> - the size of the first list, </p>
+<p>The next line contains space-separated integers <code>arr[i]</code></p> 
+<p><code>m</code> - the size of the second list, </p>
+<p>The next line contains space-separated integers <code>brr[i]</code></p>
+
 </div>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>n == nums.length</code></li>
-	<li><code>1 &lt;= n &lt;= 10<sup>4</sup></code></li>
-	<li><code>0 &lt;= nums[i] &lt;= n</code></li>
-	<li>All the numbers of <code>nums</code> are <strong>unique</strong>.</li>
+	<li><code>1 &lt;= n, m &lt;= 2 x 10<sup>5</sup></code></li>
+	<li><code>n &lt;= m</code></li>
+	<li><code>1 &lt;= brr[i] &lt;= 10<sup>4</sup></code></li>
+	<li><code>max(brr) - min(brr) &lt;= 100</code></li>
 </ul>
-
-<p>&nbsp;</p>
-<p><strong>Follow up:</strong> Could you implement a solution using only <code>O(1)</code> extra space complexity and <code>O(n)</code> runtime complexity?</p>
